@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* .navbar a {
+  color: blue !important;
+} */
+.lobster {
+  font-family: "Lobster", cursive;
+  letter-spacing: 2px;
+}
+.gray {
+  color: rgb(180, 175, 175);
+}
+.orange {
+  color: #ec7a09;
+}
+
+.top-section {
+  background-image: url("/images/main-burger-image.jpg");
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.nav-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+}
+.navbar-brand {
+  color: white !important;
+}
+.active {
+  color: white !important;
+}
+.inactive {
+  color: gray !important;
+}
+.dropdown-menu a {
+  color: black !important;
+}
+
+.orange-btn {
+  background-color: #ec7a09 !important;
+  border-radius: 20px !important;
+  color: white !important;
+}
+.top-text-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+}
+#delicious {
+  font-size: 0.8rem;
+}
+#treat {
+  font-size: 5rem;
+}
+#description {
+  font-size: 1rem;
+  margin: 2% 10% 2% 10%;
+}
+
+.top-icon-section {
+  color: white;
+  font-size: 2.5rem;
+}
+#icon {
+  padding-top: 1.2rem;
+  padding-left: 10px;
+  color: white;
+}
+
+.icons {
+  width: 1.52rem;
+}
+/* Middle Meal Section */
+.heading span {
+  float: right;
+  margin-right: 12%;
+}
+
+.menu-images {
+  width: 8cm;
+  height: 30vh;
+  border-radius: 10px;
+}
+.menu-images:hover {
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+.cursor-ptr {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.items-col {
+  float: right;
+}
+.select-meal {
+  padding-left: 10% !important;
+}
+.select-meal h1 {
+  font-size: 2rem;
+}
+.food-time button {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 2% 20% 2% 0%;
+  width: 60%;
+  align-items: left;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10%;
+  font-size: larger;
+}
+.btn-active {
+  background-color: white !important;
+}
+.btn-inactive {
+  background-color: inherit;
+}
+.food-time button:focus {
+  background-color: white;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.middle-meal-section {
+  background-color: rgba(255, 211, 146, 0.774);
+}
+
+/* Middle Meal Section Ends */
+/* dessert section  */
+.dessert {
+  display: flex;
+  border: 1px solid rgb(184, 173, 173);
+  padding: 5%;
+  width: 80%;
+}
+.dessert:hover {
+  background-color: white;
+}
+.dessert img {
+  width: 25%;
+  height: 15vh;
+  margin-right: 8%;
+}
+#little-small-image {
+  height: 10vh;
+}
+.dessert-info p {
+  font-size: larger;
+}
+.dessert-info span {
+  display: block;
+  margin-left: -60% !important;
+}
+/* Dessert Section ends */
+
+/* static image section  */
+.fixed-background {
+  padding: 12rem 0rem;
+}
+
+.fixed {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 211, 146, 0.774)),
+    url("/images/burger.jfif");
+  position: fixed;
+}
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000 !important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999 !important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+.btn-lg,
+.btn-lg:hover {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border-width: thick;
+  padding: 0.1cm;
+  margin-top: 0.3cm;
+}
+.bg-color {
+  background-color: yellow;
+}
+#customer {
+  width: 10%;
+  border-radius: 50%;
+  height: 8vh;
+}
+.customer-name {
+  font-size: 1rem;
+}
+.customer-review {
+  font-size: 0.93rem;
+  margin-right: 20%;
+}
+.dot {
+  font-size: 4rem;
+  display: flex;
+}
+
+#gallery-img {
+  width: 80%;
+  height: 50%;
+}
+/* Events Section */
+.events-section {
+  background-color: rgba(255, 211, 146, 0.774);
+}
+/* Footer Section  */
+footer {
+  background-color: rgb(131, 131, 131);
+}
+
+.icons {
+  color: white;
+  font-size: 2.5rem;
+}
+footer h5,
+footer p {
+  color: white;
+}
+
+.description {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.description p {
+  font-size: 0.9rem;
+  padding-right: 20%;
+}
+
+#icon {
+  padding-top: 1.2rem;
+  padding-left: 10px;
+  color: white;
+}
+.socket {
+  border-top: 2px solid rgba(255, 211, 146, 0.774);
+  background-color: rgba(255, 211, 146, 0.774) !important;
+}
+.socket p :hover {
+  color: #ec7a09;
+}

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Lobster&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="top-section">
+      <nav class="navbar navbar-expand-lg navbar-light pt-3">
+        <div class="container">
+          <a class="navbar-brand lobster" href="index.html">dawat.</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link active" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item  dropdown">
+                <a
+                  class="nav-link inactive dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Elements</a>
+                  <a class="dropdown-item" href="#">Menu 2</a>
+                  <a class="dropdown-item" href="#">Menu 3</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">More Menu here..</a>
+                </div>
+              </li>
+
+              <li class="nav-item ">
+                <a class="nav-link inactive" href="#"
+                  >Events <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item  ">
+                <a class="nav-link inactive" href="#"
+                  >Gallery <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item  ">
+                <a class="nav-link inactive" href="#"
+                  >About<span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item ">
+                <a class="nav-link inactive" href="#"
+                  >Contact <span class="sr-only">(current)</span></a
+                >
+              </li>
+            </ul>
+            <button type="button" class="btn orange-btn">Book a table</button>
+          </div>
+        </div>
+      </nav>
+      <div class="top-text-section text-center">
+        <h5 class="gray" id="delicious">ENJOY YOUR HEALTHY DELICIOUS MEAL</h5>
+        <h1 class="lobster" id="treat">Treat Yourself</h1>
+        <h5 class="gray" id="description">
+          We provide the best delicious meals in all of the Kathmandu valley
+          with variety of dishes to choose from & home delivery option as well
+          as packaging.
+        </h5>
+        <button type="button" class="btn orange-btn mt-3">EXPLORE NOW</button>
+      </div>
+      <div class="top-icon-section">
+        <a href="http://www.facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f" id="icon"></i
+        ></a>
+        <a href="http://twitter.com" target="_blank"
+          ><i class="fab fa-twitter" id="icon"></i
+        ></a>
+        <a href="http://www.instagram.com" target="_blank"
+          ><i class="fab fa-instagram" id="icon"></i
+        ></a>
+        <a href="http://www.youtube.com" target="_blank"
+          ><i class="fab fa-youtube" id="icon"></i
+        ></a>
+      </div>
+    </div>
+
+    <!---------------Top section end------------------>
+
+    <!-- ------------Middle Section begins------------------------>
+    <div class="middle-meal-section py-5">
+      <div class="row">
+        <div class="col-md-5 select-meal">
+          <h5 class="gray" id="delicious">SELECT YOUR MEAL</h5>
+          <h1>Popular <span class="orange"> Foods</span></h1>
+
+          <div class="food-time  mt-4">
+            <button type="button" class="btn btn--0 btn-food btn-active">
+              <img src="/images/icons/breakfast.png" alt="" / class="icons mr-2
+              ml-4"> Breakfast
+            </button>
+
+            <button type="button" class="btn btn--1 btn-food btn-inactive">
+              <img src="/images/icons/lunch-time.png" alt="" / class="icons
+              mr-2"> Lunch
+            </button>
+            <button type="button" class="btn btn--2 btn-food btn-inactive ">
+              <img src="/images/icons/dinner.png" alt="" / class="icons mr-2">
+              Dinner
+            </button>
+            <button type="button" class="btn btn--3 btn-food btn-inactive">
+              <img src="/images/icons/drink.png" alt="" / class="icons mr-2">
+              Drinks
+            </button>
+          </div>
+        </div>
+        <div class="col-md-7 items-col">
+          <div class="breakfast">
+            <div class="heading">
+              <h3>Breakfast <span class="orange">1/4</span></h3>
+            </div>
+            <div class="row mb-3 row1">
+              <div class="item1 mr-3">
+                <img
+                  src="/images/breakfast/breakfast1.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Italian Cereals</p>
+                <p class="orange">Rs 500</p>
+              </div>
+              <div class="item-2 ml-3">
+                <img
+                  src="/images/breakfast/breakfast2.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Egg Omletes</p>
+                <p class="orange">Rs 200</p>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="item1 mr-3">
+                <img
+                  src="/images/breakfast/breakfast3.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Bread Jam</p>
+                <p class="orange">Rs 50</p>
+              </div>
+              <div class="item-2 ml-3">
+                <img
+                  src="/images/breakfast/breakfast4.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Mexican Pasta</p>
+                <p class="orange">Rs 120</p>
+              </div>
+            </div>
+          </div>
+          <div class="lunch hidden">
+            <div class="heading">
+              <h3>Lunch <span class="orange">2/4</span></h3>
+            </div>
+            <div class="row mb-3 row1">
+              <div class="item1 mr-3">
+                <img
+                  src="/images/lunch/lunch1.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Thakali Khana</p>
+                <p class="orange">Rs 350</p>
+              </div>
+              <div class="item-2 ml-3">
+                <img
+                  src="/images/lunch/lunch2.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Roti Tarkari</p>
+                <p class="orange">Rs 200</p>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="item1 mr-3">
+                <img
+                  src="/images/lunch/lunch3.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Spring Roll</p>
+                <p class="orange">Rs 150</p>
+              </div>
+              <div class="item-2 ml-3">
+                <img
+                  src="/images/lunch/lunch4.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Biryani</p>
+                <p class="orange">Rs 500</p>
+              </div>
+            </div>
+          </div>
+          <div class="dinner hidden">
+            <div class="heading">
+              <h3>Dinner <span class="orange">3/4</span></h3>
+            </div>
+            <div class="row mb-3 row1">
+              <div class="item1 mr-3">
+                <img
+                  src="/images/dinner/dinner1.jfif"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Chapati Egg Sandwitch</p>
+                <p class="orange">Rs 500</p>
+              </div>
+              <div class="item-2 ml-3">
+                <img
+                  src="/images/dinner/dinner4.jfif"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Plain Rice</p>
+                <p class="orange">Rs 200</p>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="item1 mr-3">
+                <img
+                  src="/images/dinner/dinner2.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Chicken Naan</p>
+                <p class="orange">Rs 250</p>
+              </div>
+              <div class="item-2 ml-3">
+                <img
+                  src="/images/dinner/dinner3.jfif"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Mutton Egg Sandwitch</p>
+                <p class="orange">Rs 380</p>
+              </div>
+            </div>
+          </div>
+          <div class="drinks hidden">
+            <div class="heading">
+              <h3>Drinks <span class="orange">4/4</span></h3>
+            </div>
+            <div class="row mb-3 row1">
+              <div class="item1 mr-3">
+                <img
+                  src="/images/drinks/drink1.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Soft Drinks</p>
+                <p class="orange">Rs 50</p>
+              </div>
+              <div class="item-2 ml-3">
+                <img
+                  src="/images/drinks/drink2.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Lassi</p>
+                <p class="orange">Rs 100</p>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="item1 mr-3">
+                <img
+                  src="/images/drinks/drink3.jpg"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Ice Tea</p>
+                <p class="orange">Rs 80</p>
+              </div>
+              <div class="item-2 ml-3">
+                <img
+                  src="/images/drinks/drink4.jfif"
+                  alt=""
+                  class="menu-images mb-3 cursor-ptr"
+                />
+                <p>Coffee</p>
+                <p class="orange">Rs 50</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------Middle Dessert section ----------------------->
+      <div
+        class="middle-dessert-section justify-content-center text-center my-5"
+      >
+        <h5 class="gray" id="delicious">CHOOSE DESSERTS</h5>
+        <h1>Popular <span class="orange"> Desserts</span></h1>
+
+        <div
+          class="row justify-content-center text-center no-gutters ml-5 mt-5"
+        >
+          <div class="col-md-3">
+            <div
+              class="dessert"
+              onclick="location.href='#';"
+              style="cursor: pointer"
+            >
+              <img src="/images/dessert/dessert1.png" alt="" />
+              <div class="dessert-info mt-4">
+                <p>Cherry Muffin <span class="orange">Rs 20</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="dessert"
+              onclick="location.href='#';"
+              style="cursor: pointer"
+            >
+              <img src="/images/dessert/dessert2.png" alt="" />
+              <div class="dessert-info mt-4">
+                <p>Rose Muffin <span class="orange">Rs 20</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="dessert"
+              onclick="location.href='#';"
+              style="cursor: pointer"
+            >
+              <img src="/images/dessert/dessert3.png" alt="" / class="mt-4"
+              id="little-small-image">
+              <div class="dessert-info mt-4">
+                <p>Sweet Donut <span class="orange">Rs 20</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="dessert"
+              onclick="location.href='#';"
+              style="cursor: pointer"
+            >
+              <img src="/images/dessert/dessert4.png" alt="" / class="mt-4"
+              id="little-small-image">
+              <div class="dessert-info mt-4">
+                <p>Chocolate Cake <span class="orange">Rs 20</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------Middle Meal Section Ends-------->
+    <!-----------------Middle Static Section Starts --------------->
+    <div class="fixed-background">
+      <div class="row mx-5">
+        <div class="col-lg-6">
+          <h5 class="gray" id="delicious" style="font-size: 1rem">
+            TESTIMONIALS
+          </h5>
+          <h1 class="gray" style="font-size: 1.5rem">
+            Satisfied<span class="orange"> Customer</span>
+          </h1>
+          <div class="customer1">
+            <img
+              src="/images/customer/customer1.jpg"
+              alt=""
+              class="my-4"
+              id="customer"
+            />
+            <h1 class="customer-name gray">
+              Hamza<span class="orange"> Ahmed</span>
+            </h1>
+            <p>CEO, Founder</p>
+            <img
+              src="https://img.icons8.com/ios-glyphs/30/000000/quote-left.png"
+            />
+            <p class="customer-review gray">
+              "This cozy restaurant has left the best impressions! Hospitable
+              hosts, delicious dishes, beautiful presentation, wide wine list
+              and wonderful dessert. I recommend to everyone! I would like to
+              come back here again and again.
+            </p>
+          </div>
+          <div class="customer2 hidden">
+            <img
+              src="/images/customer/customer2.jpg"
+              alt=""
+              class="my-4"
+              id="customer"
+            />
+            <h1 class="customer-name gray">
+              Kamal <span class="orange"> Shrestha</span>
+            </h1>
+            <p>Co Founder</p>
+            <img
+              src="https://img.icons8.com/ios-glyphs/30/000000/quote-left.png"
+            />
+            <p class="customer-review gray">
+              Excellent food. Menu is extensive and seasonal to a particularly
+              high standard. Definitely fine dining. It can be expensive but
+              worth it and they do different deals on different nights so it's
+              worth checking them out before you book. Highly recommended.
+            </p>
+          </div>
+          <div class="customer3 hidden">
+            <img
+              src="/images/customer/customer3.jpg"
+              alt=""
+              class="my-4"
+              id="customer"
+            />
+            <h1 class="customer-name gray">
+              Kushal<span class="orange"> Shrestha</span>
+            </h1>
+            <p>Regular Customer</p>
+            <img
+              src="https://img.icons8.com/ios-glyphs/30/000000/quote-left.png"
+            />
+            <p class="customer-review gray">
+              First time in dawat and YOU have to go! It's the cutest little spot
+              with amazing food. The Hyderabadi Biryani is to die for. IT WAS
+              FIRE!! The service we received was so amazing and we will
+              definitely be back again. They made us feel welcomed and gave us
+              an amazing experience.
+            </p>
+          </div>
+
+          <div class="dot" style="margin-top: -2rem">
+            <p class="cursor-ptr dot-1 orange">.</p>
+            <p class="cursor-ptr mx-2 dot-2">.</p>
+            <p class="cursor-ptr dot-3">.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h5 class="gray" id="delicious" style="font-size: 1rem">GALLERIES</h5>
+          <h1 class="gray" style="font-size: 1.5rem">
+            PHOTO <span class="orange"> GALLERIES</span>
+          </h1>
+          <div class="row no-gutters">
+            <div class="col-lg-6">
+              <img
+                src="/images/breakfast/breakfast1.jpg"
+                alt=""
+                class="menu-images gallery my-3 cursor-ptr"
+                id="gallery-img"
+              />
+              <img
+                src="/images/dinner/dinner4.jfif"
+                alt=""
+                class="menu-images gallery my-3 cursor-ptr"
+                id="gallery-img"
+              />
+              <button type="button" class="btn orange-btn mt-2">
+                MORE GALLERIES
+              </button>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="/images/drinks/drink4.jfif"
+                alt=""
+                class="menu-images gallery my-3 cursor-ptr"
+                id="gallery-img"
+              />
+              <img
+                src="/images/lunch/lunch2.jpg"
+                alt=""
+                class="menu-images gallery my-3 cursor-ptr"
+                id="gallery-img"
+              />
+            
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="fixed-wrap">
+        <div class="fixed"></div>
+      </div>
+    </div>
+
+    <!------------------ middle bottom section -------------------->
+    <div class="events-section">
+    <div class="container ">
+      <div class="row justify-content-center text-center py-5">
+        <div class="col-md-12">
+          <h5 class="gray" id="delicious">EVENTS</h5>
+          <h1>Enjoy<span class="orange"> Our Events</span></h1>
+
+      </div>
+        </div>
+       
+      <div class="row py-4 ">
+        <div class="col-lg-6  my-lg-auto">
+          <h1 class="orange">Rs. 4999</h1>
+          <h1>Birthday Party</h1>
+          
+          <p style="color: rgb(122, 117, 117);" class="mr-5 mt-3">dawat is the best place for birthday parties, to hang out with good food, live bands, huka, ambiance, crowd, service. Your pic could also come on it's facebook page if you are lucky enough.</p>
+          <div class="accomodation">
+            <p> <span><img src="https://img.icons8.com/material-outlined/24/000000/double-tick.png"/></span> Separate Birthday Party Table</p>
+            <p> <span><img src="https://img.icons8.com/material-outlined/24/000000/double-tick.png"/></span> Photos clicked by our professional Cameraman.</p>
+            <p> <span><img src="https://img.icons8.com/material-outlined/24/000000/double-tick.png"/></span> Special discount on drinks</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="/images/birthday/birthday2.jpg"" alt="" class="w-100">
+        
+        </div>
+      </div>
+      
+       
+      <div class="row py-4  py-4">
+        <div class="col-lg-6 ">
+          <img src="/images/birthday/gathering.webp" alt="" class="w-100">
+        
+        </div>
+        <div class="col-lg-6 px-5   ">
+          <h1 class="orange">Rs. 4999</h1>
+          <h1>Chief Guest Night Party</h1>
+          
+          <p style="color: rgb(122, 117, 117);" class=" mt-3">dawat is the best place for birthday parties, to hang out with good food, live bands, huka, ambiance, crowd, service. Your pic could also come on it's facebook page if you are lucky enough.</p>
+          <div class="accomodation">
+            <p> <span><img src="https://img.icons8.com/material-outlined/24/000000/double-tick.png"/></span> Private Arrangements for Chief Guest</p>
+            <p> <span><img src="https://img.icons8.com/material-outlined/24/000000/double-tick.png"/></span> Photos clicked by our professional Cameraman.</p>
+            <p> <span><img src="https://img.icons8.com/material-outlined/24/000000/double-tick.png"/></span> Unlimited Drinks</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    </div>
+    <div class="jumbotron py-3 mb-0">
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-7 col-xl-9">
+            <h3>Wanna taste our delicious foods and enjoy your time?</h3>
+          </div>
+        
+        <div class="col-lg-5 col-xl-3">
+          <button type="button" class="btn orange-btn">Book a table</button>
+        </div>
+      </div>
+      </div>
+   </div>
+   <!-- Footer Section-->
+   <footer>
+     <div class="row justify-content-center text-center no-gutters mx-5">
+       <div class="col description text-left ">
+        <h5 ">About dawat<span class="orange" style="font-size: 1.2rem;">.</span></h5>
+        <p ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      
+      </div>
+      <div class="col mt-3">
+        <h5>Connect Us</h5>
+        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/>
+        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook-new.png"/>
+        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/viber.png"/>
+        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook-messenger.png"/>
+      </div>
+      <div class="col contact mt-3">
+        <h5>Contact</h5>
+        <p>Balaju,Kathmandu</p>
+        <p>+977 9861329826</p>
+        <p>+977 9849456798</p>
+        <p>dawat@gmail.com</p>
+      </div>
+      </div>
+      
+   </footer>
+
+   <div class="socket text-dark text-center py-2">
+     <p class="orange "">&copy;<a href="index.html" class="orange">dawat.com</a></p>
+   </div>
+
+
+
+
+    
+    <!--Script Section -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
